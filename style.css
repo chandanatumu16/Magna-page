@@ -1,0 +1,304 @@
+/*Nav-bar*/
+body{
+    overflow: hidden;
+}
+.main-class{
+    background-image: url(../landingpage/img/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navbar i{
+    color: #a38c3b;
+    font-size: 25px;
+}
+.navbar .menu-items{
+    margin-left: 300px;
+    display: flex;
+    padding:4px 30px;
+    font-weight: 500;
+}
+.navbar .navbar-nav .nav-item .side-nav::after {
+    top: 25px;
+    bottom: 0;
+    content: '';
+    width: 1px;
+    height: 27px;
+    background-color: black;
+    position: absolute;
+    margin: 0 15px;
+}
+.navbar .navbar-nav .nav-item .enq-now{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #a38c3b;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff !important;
+    margin-top: 4px;
+}
+.enq-now i{
+    color: white;
+    margin-right: 5px;
+    padding: 2px 3px;
+    font-size: 20px;
+}
+.navbar-nav{
+    text-align: center;
+    margin-left: 15%;
+}
+.navbar .navbar-nav .nav-item{
+    margin: 0 15px;
+}
+.navbar .navbar-brand img{
+    position: absolute;
+    width: 7%;
+    top: 0;
+}
+.navbar .navbar-nav .nav-item a{
+    font-size: 15px;
+    color: black !important;
+    padding-top: 10px;
+    font-weight: 700;
+    padding: 10px;
+}
+/*first login form*/
+ .main-class .new-form{
+    padding:20px ;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 65%;
+    margin-left: 30%;
+}
+.main-class form .box .form-control{
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+.main-class .new-form .btn{
+    width: 100%;
+    background: #a38c3b;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 3px;
+    font-weight: 500;
+}
+.main-class .login-tab .new-form .form-control{
+    background: none;
+}
+.main-class .new-form .login-head{
+    color: white;
+    font-size: 35px;
+}
+.main-class form .box .form-control::placeholder{
+    color: #fff;
+}
+.main-class .heading{
+    color: #fff;
+}
+.main-class .heading h1{
+    font-size: 60px;
+}
+.main-class .heading h1 span{
+     background: -webkit-linear-gradient(339deg, rgba(76,237,102,1) 0%, rgba(240,182,76,1) 31%, rgba(239,140,76,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+  }
+.main-class .heading .second-para span{
+    color: #a38c3b;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main-class .heading p{
+    font-size: 20px;
+}
+/*Floor Plan*/
+section.b_block{
+    background-color: #e2e1d6;
+    padding: 80px 0;
+    position: relative;
+}
+section.b_block .main_img img{
+    width: 100%;
+}
+.b_block .heading{
+    position: absolute;
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+    left: -130px;
+    bottom: 360px;
+    transform: rotate(270deg);
+}
+.b_block .heading h1{
+    color: #383838;
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*community page*/
+.main-fourth{
+    background-color: #efeeec;
+}
+.main-fourth .left-para{
+    padding: 80px;
+    color: black;
+}
+.main-fourth .left-para h3{
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0px 90px 26px 0;
+}
+.main-fourth .left-para p{
+    font-size: 20px;    
+    line-height: 30px;
+    color: #373420;
+}
+.main-fourth .house{
+    background: #937e34;
+    width: 100%;
+    height: 100%;
+}
+.main-fourth .house .img img{
+    position: relative;
+    top: 88px;
+    left: -119px;
+    width: 100%;
+}
+
+/*Fifth page Amenities*/
+.main-ament{
+    padding: 90px 0;
+}
+.main-ament .ament-head{
+    margin-bottom: 80px;
+}
+.main-ament .second-row .first{
+    border: 1px solid #b6b6b5;
+    border-radius: 10px;
+    margin: 5px;
+    min-height: 25vh;
+    width: 90%;
+}
+.main-ament .second-row{
+    text-align: center;
+}
+.main-ament .second-row .first img{
+    width: 40%;
+    vertical-align: middle;
+}
+.main-ament .second-row .first h4{
+    text-align: center;
+    margin-top: 22px;
+    font-size: 15px;
+    font-weight: 500;
+}
+/*form-2 page */
+.mini-bg{
+    background:url(../landingpage/img/background2.jpg);
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+.mini-bg .main-form .form-2{
+    background:none;
+    width: 65%;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+.mini-bg .main-form .form-2 .get-touch h1{
+    color: white;
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.mini-bg .main-form .form-2 .box input{
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    background: none;
+    padding: 14px 5px;
+}
+.mini-bg .main-form .form-2 .btn2
+{
+    width: 100%;
+    background: #a38c3b;
+    border-radius: 50px;
+    border: none;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 5px;
+}
+.mini-bg .main-form form .box .form-control::placeholder{
+    color: #fff;
+}
+.mini-bg .dream-head h1{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+    padding: 120px 0;
+    margin-left: 51px;
+}
+/*Footer*/
+.foot{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 40px 0;
+
+}
+.last-line h2{
+    font-size: 20px;
+ 
+}
+.last-line span{
+    color: #937e34;
+}
+.last-line a{
+    text-decoration: none;
+}
+.main-fourth .highlight{
+    background: white;
+    height: 75vh;
+    position: relative;
+    padding: 50px;   
+    margin-bottom: 40px; 
+}
+
+.main-fourth .highlight .project h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.main-fourth .highlight .project p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #37342b;
+
+}
+.highlight  i{
+    color: #937e34;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.main-fourth .highlight h5{
+    color: #37342b;
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
